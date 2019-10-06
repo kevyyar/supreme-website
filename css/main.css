@@ -19,7 +19,7 @@
     /* top: 4px; */
     bottom: 16px;
     font-family: 'Be Vietnam', sans-serif;
-    /* font-style: italic; */
+    font-style: italic;
     font-size: 40px;
 }
 
@@ -41,7 +41,11 @@ h2
     display: flex;
     width: 100vw;
     height: 100vh;
-    background-color: #fff;;
+    /* background-color: #fff; */
+    background-image: url("/img/bg-image/tom-martin-master-chief.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
     align-items: center;
     justify-content: center;
 }
