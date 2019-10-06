@@ -4,12 +4,28 @@
     margin: 0;
 }
 
-#logo-text
+#logo-container
 {
-    font-family: 'Be Vietnam', sans-serif; 
+    width: 190px;
+    margin: auto;
+    margin-bottom: 25px;
+    background-color: #ff0000;
+    height: 40px;
 }
 
-h2{
+#logo-text
+{
+    position: relative;
+    /* top: 4px; */
+    bottom: 16px;
+    font-family: 'Be Vietnam', sans-serif;
+    /* font-style: italic; */
+    font-size: 40px;
+}
+
+
+h2
+{
     font-size: 14px;
     font-weight: 100;
 }
@@ -48,7 +64,7 @@ header
 
 nav
 {
-    border: 1px solid #fff;
+    /* border: 1px solid #fff; */
     padding-left: 40px;
     font-family: 'Courier New', Courier, monospace;
 }
