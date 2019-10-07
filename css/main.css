@@ -36,6 +36,7 @@ h2
 {
     font-family: 'Courier New', Courier, monospace;
     color: #fff;
+    font-size: 12px;
 }
 
 .bg-tint
@@ -95,14 +96,29 @@ nav ul li
     list-style: none;
 }
 
+nav ul li:hover
+{
+    background-color: #FF0000;
+    display: inline-block;
+    cursor: pointer;
+    
+}
+
 #main-nav
 {
     margin-bottom: 30px;
     color: #fff;
+    padding-left: 0;
 }
 
 #main-nav ul li{
     padding: 10px 0;
+}
+
+#main-nav ul li a 
+{
+    text-decoration: none;
+    color: #fff;
 }
 
 #social-nav
@@ -119,13 +135,18 @@ nav ul li
 
 }
 
-#social-nav ul li
+/* #social-nav ul li
 {
-    padding-right: 10px;
-}
+    padding-right: 0; 
+} */
 
 .social-media-icons
 {
-    font-size: 20px;
+    font-size: 18px;
     color: gray;
+}
+
+.social-media-icons:hover
+{
+    color: #fff;
 }
